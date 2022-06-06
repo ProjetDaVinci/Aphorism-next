@@ -13,4 +13,10 @@
 }
 .navigation > a {
   padding: 0 10px;
+  border-bottom: 2px solid #ffffff00;
+}
+
+.navigation > a:hover {
+  transition: 2s ease;
+  border-bottom: 2px solid #0000008f;
 }

@@ -3,7 +3,7 @@ import Footer from "./footer";
 import Header from "./header";
 
 interface IProps {
-  children: any;
+  children: React.ReactNode;
 }
 
 const Layout = ({ children }: IProps) => {

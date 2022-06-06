@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+.container {
+  display: grid;
+  grid-template-columns: 3fr 0fr;
+  align-items: center;
+  border-bottom: 2px solid #56535317;
+}
+
+.container::last-child {
+  border-bottom: none;
+}
+
+.like:hover {
+  fill-opacity: 0.5;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.like_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quote {
+  font-family: "Joan", serif;
+  font-size: 22px;
+}
